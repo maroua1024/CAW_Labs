@@ -1,0 +1,28 @@
+*{
+    margin: 50px;
+    background-color: #e8eae8;
+    color: #5d665b;
+}
+body{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 120px;
+    margin-right: 50px;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    font-size: small;
+    line-height: 180%;
+}
+h2:first-of-type{
+    font-size: 75%;
+    font-family: Georgia, serif;
+    color: #966b72;
+}
+p:first-of-type{
+    font-size: 70%;
+}
+p:nth-of-type(2){
+    text-indent: 3em;
+}
+h1{
+    color: #ffffdd;
+}
