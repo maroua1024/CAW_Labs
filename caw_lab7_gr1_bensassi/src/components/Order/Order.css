@@ -1,0 +1,51 @@
+.order-summary {
+  background-color: #fff;
+  padding: 2rem;
+  max-width: 700px;
+  margin: 2rem auto;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.order-summary h2 {
+  color: #2ecc71;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.order-summary ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.order-summary ul li {
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+}
+
+.order-summary p {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+.order-summary .client-name {
+  font-weight: bold;
+  color: #3498db;
+}
+
+.order-summary button {
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.order-summary button:hover {
+  background-color: #2980b9;
+}
