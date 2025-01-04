@@ -1,0 +1,188 @@
+.transaction-list {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .transaction-list h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2c3e50;
+  }
+  
+  .filters {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .filters label {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  thead {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  thead th {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #ffffff;
+  }
+  
+  tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tbody tr:hover {
+    background-color: #eaf2f8;
+  }
+  
+  .no-transactions {
+    text-align: center;
+    font-style: italic;
+    color: #7f8c8d;
+    padding: 20px;
+  }
+  
+  button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    min-height: 36px; 
+  }
+  
+  .edit-btn {
+    background-color: #f39c12;
+    color: white;
+    margin-right: 10px;
+  }
+  
+  .edit-btn:hover {
+    background-color: #e67e22;
+  }
+  
+  .delete-btn {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  .delete-btn:hover {
+    background-color: #c0392b;
+  }
+  
+  
+  .edit-form {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+  }
+  
+  .edit-form h2 {
+    text-align: center;
+    color: #2c3e50;
+  }
+  
+  .edit-form label {
+    margin-bottom: 15px;
+  }
+  
+  .edit-form input,
+  .edit-form select {
+    width: 97%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .edit-form-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .edit-form-actions button {
+    width: 48%; 
+    padding: 10px;
+  }
+  
+  .edit-form-actions button[type="submit"] {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .edit-form-actions button[type="button"] {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  .edit-form-actions button[type="submit"]:hover {
+    background-color: #2980b9;
+  }
+  
+  .edit-form-actions button[type="button"]:hover {
+    background-color: #c0392b;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .filters {
+      flex-direction: column;
+      gap: 15px;
+    }
+    table {
+      font-size: 12px;
+    }
+    .transaction-list button {
+      margin-bottom: 10px;
+      width: 100%;
+    }
+    .edit-btn,
+    .delete-btn {
+      width: auto;
+    }
+  
+    .filters label {
+      width: 100%;
+    }
+  
+    .edit-form input,
+    .edit-form select {
+      font-size: 12px;
+    }
+  
+    .edit-form-actions {
+      flex-direction: column;
+    }
+  
+    .edit-form-actions button {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+  }
+  
